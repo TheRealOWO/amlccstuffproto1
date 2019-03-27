@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>transforms page</title>
+  <style>
+    body {
+      background-color: #fedcba;
+    }
+
+    div {
+      width: 300px;
+      height: 300px;
+      background-color: #987654;
+      margin: 1rem;
+      margin-left:auto;
+      margin-right:auto;
+
+    }
+
+    #box1 {
+      transition: transform 1s, border-radius 1s, background-color 2s;
+    }
+
+    #box1:hover {transform: rotate(45deg);
+    border-radius: 20%;
+    background-color: red;
+
+
+   }
+
+    #box2 {transition: transform 2s ease-out ,background-color 1.5s;}
+
+    #box2:hover {transform: scale(2);
+      border-radius: 30%;
+      background-color: lightblue;
+
+    }
+
+    #box3 {transition: transform 2s;
+    }
+
+    #box3:hover {transform: rotate(360deg);
+    background-image: url("oof.png");
+
+  }
+
+    #box4 {transition: transform 1s;}
+
+    #box4:hover {transform: matrix(1, -0.3, 0, 1, 0, 0);
+background-color: blue;
+    }
+
+    #box5 {transition: transform 3s, border-radius 3s;}
+
+    #box5:hover {transform: scale(0);
+    border-radius: 100%;
+    background-image: url("download.jpeg");
+}
+
+    #box6 {transition: transform 3s, background-image 2s;}
+
+    #box6:hover {
+      transform: scale(5);
+      background-image: url("art13.jpeg");
+      background-repeat: no-repeat;
+      background-color: black;
+    }
+
+    #box7 {transition: transform 4s, border-radius 4s;}
+
+    #box7:hover {background-image: url(duesvult.jpeg);
+    background-repeat: no-repeat;
+  background-color: black;
+  transform: rotate(5000deg);
+  border-radius: 100%;
+
+
+}
+
+    #box8 {transition: transform 60s;}
+
+    #box8:hover {background-image: url(bay.jpeg);
+background-repeat: no-repeat;
+transform: rotate(19999deg);
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box1"> </div>
+  <div id="box2"> </div>
+  <div id="box3"><p>the secret to life</p> </div>
+  <div id="box4"><p>this box could be yours for the small price of $899</p> </div>
+  <div id="box5"><p>ATTENTION ALL FORTNITE GAMEER pewdiepie is in need of your help </p> </div>
+  <div id="box6"><p>OH NO WHY YO U DO THIS Europe </p></div>
+  <div id="box7"><p>Looks like Europe need to be cleansed </p> </div>
+  <div id="box8"><p>this is just a box that well keep spining  </p> </div>
+</body>
+
+</html>
