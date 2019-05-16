@@ -1,0 +1,81 @@
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  background: darkblue;
+  width: 150px;
+  height: 20px;
+  padding: 0px;
+  margin: 10px;
+  text-align: center;
+}
+#title {
+  background: #53a9dc;
+  text-align: center;
+}
+
+a:hover {
+  background: url("congruent_outline.png"), yellow;
+  background-blend-mode: multiply;
+  color: lightblue;
+}
+
+body {
+  background: pink;
+  text-align:justify;
+text-overflow: clip;
+text-align: center;
+}
+
+.grid {
+  width: 90%;
+  margin: auto;
+}
+
+nav {
+  background: #53a9dc;
+}
+
+article {
+  background: lightyellow;
+}
+
+footer {
+  background: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: #cadfef;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .span-col-2 {
+    grid-column: span 2 / auto;
+    margin: auto;
+  }
+
+  .span-col-3 {
+    grid-column: span 3 / auto;
+    text-align: left;
+  }
+
+  article {
+    background: #53a9dc;
+  }
+
+  nav {
+    background: #a0d6ff;
+  }
+}
